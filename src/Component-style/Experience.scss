@@ -1,0 +1,22 @@
+@use './size-module.scss';
+.processing {
+    height: 100%;
+    display:block;
+    .processingComponent{
+        width: 100%;
+        margin: 20px 100px;
+        .processName{
+            text-align: start;
+            margin-bottom: 10px;
+        }
+        .bar{
+            width: 80%;
+            height: 10px;
+            background-color: rgb(224, 224, 224);
+        }
+        .processBar{
+            height: 100%;
+            background-color: rgb(7, 97, 156);
+        }
+    }
+}

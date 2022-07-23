@@ -1,0 +1,57 @@
+$color_1: dimgray;
+$color_2: black;
+$font-family_1: 'Alegreya', serif;
+
+@import "https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,700&display=swap";
+.Header {
+	display: flex;
+	position: fixed;
+	justify-content: space-around;
+	width: 90%;
+	margin-top: 20px;
+}
+#box-tag-icon {
+	display: flex;
+}
+ul {
+	list-style-type: none;
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+li {
+	a,button {
+		text-decoration: none;
+		color: $color_1;
+		&:hover {
+			color: $color_2;
+			font-weight: bolder;
+			font-style: italic;
+			text-shadow: 2px 2px rgb(159, 158, 158);
+			transition-duration: 400ms;
+		}
+	}
+	padding: 5px 20px;
+}
+.box-icon {
+	margin-left: 20px;
+	a,button {
+		margin: 5px;
+		box-icon {
+			&:hover {
+				box-shadow: 2px 2px 2px 2px rgb(159, 158, 158);
+				transition-duration: 400ms;
+			}
+		}
+	}
+}
+#box-title {
+	font-family: $font-family_1;
+	font-size: 2em;
+}
+button{
+	background-color: transparent;
+	border: 0px;
+}
+

@@ -1,0 +1,10 @@
+
+@use './size-module.scss';
+.Home{
+    display: flex;
+}
+#slide-plate{
+    width: 100%;
+    height: 90%;
+    border-radius: 25px;
+}

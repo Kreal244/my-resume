@@ -1,0 +1,12 @@
+$line:dimgray;
+@mixin partition{
+    border-bottom: 2px solid $line;
+}
+.partition{
+    height: 670px;
+    padding-top: 80px;
+    @include partition();
+}
+#About,#Experience{
+    margin-top: 10px;
+}
