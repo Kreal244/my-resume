@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Krealvippro/my-resume/static/css/main.011adae9.css",
-    "main.js": "/Krealvippro/my-resume/static/js/main.1167ea21.js",
-    "static/js/787.7c4fc8d6.chunk.js": "/Krealvippro/my-resume/static/js/787.7c4fc8d6.chunk.js",
-    "static/media/slide-plate.gif": "/Krealvippro/my-resume/static/media/slide-plate.c235fa492eb50a2a5dc8.gif",
-    "static/media/avatar.jpg": "/Krealvippro/my-resume/static/media/avatar.7f97b789cdd2249b920a.jpg",
-    "static/media/myCv.pdf": "/Krealvippro/my-resume/static/media/myCv.ea26822ac051d7ca2a6b.pdf",
-    "index.html": "/Krealvippro/my-resume/index.html",
-    "main.011adae9.css.map": "/Krealvippro/my-resume/static/css/main.011adae9.css.map",
-    "main.1167ea21.js.map": "/Krealvippro/my-resume/static/js/main.1167ea21.js.map",
-    "787.7c4fc8d6.chunk.js.map": "/Krealvippro/my-resume/static/js/787.7c4fc8d6.chunk.js.map"
+    "main.css": "/my-resume/static/css/main.bc873287.css",
+    "main.js": "/my-resume/static/js/main.3917068f.js",
+    "static/js/787.7c4fc8d6.chunk.js": "/my-resume/static/js/787.7c4fc8d6.chunk.js",
+    "static/media/slide-plate.gif": "/my-resume/static/media/slide-plate.c235fa492eb50a2a5dc8.gif",
+    "static/media/avatar.jpg": "/my-resume/static/media/avatar.7f97b789cdd2249b920a.jpg",
+    "static/media/myCv.pdf": "/my-resume/static/media/myCv.ea26822ac051d7ca2a6b.pdf",
+    "index.html": "/my-resume/index.html",
+    "main.bc873287.css.map": "/my-resume/static/css/main.bc873287.css.map",
+    "main.3917068f.js.map": "/my-resume/static/js/main.3917068f.js.map",
+    "787.7c4fc8d6.chunk.js.map": "/my-resume/static/js/787.7c4fc8d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.011adae9.css",
-    "static/js/main.1167ea21.js"
+    "static/css/main.bc873287.css",
+    "static/js/main.3917068f.js"
   ]
 }
