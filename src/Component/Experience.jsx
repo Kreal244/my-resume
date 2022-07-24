@@ -1,7 +1,5 @@
 import React from 'react'
 import '../Component-style/Experience.scss'
-import { ProgressBar } from 'react-bootstrap';
-
 const expLangs = [
   {
     name: "CREATIVE AND LOGICAL",

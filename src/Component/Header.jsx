@@ -3,9 +3,9 @@ import "boxicons"
 import "../Component-style/Header.scss"
 
 const Header = () => {
-    function copyText(text) {
+    function copyText(text,noitce) {
         navigator.clipboard.writeText(text)
-        console.log(text)
+        alert(noitce)
     }
     return (
         <div className='Header'>
@@ -23,10 +23,10 @@ const Header = () => {
                     <a href="https://bit.ly/3yXASAt" target="_blank" rel="noopener noreferrer">
                         <box-icon name='linkedin-square' type='logo' ></box-icon>
                     </a>
-                    <button onClick={copyText("khanghn.job@gmail.com")} >
+                    <button onClick={()=>copyText("khanghn.job@gmail.com","Gmail is copied")} >
                         <box-icon name='gmail' type='logo' ></box-icon>
                     </button>
-                    <button onClick={copyText("+84 868444624")}>
+                    <button onClick={()=>copyText("+84 812444624","Phone number is copied")}>
                         <box-icon type='solid' name='phone'></box-icon>
                     </button>
                 </div>

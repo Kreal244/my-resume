@@ -3,6 +3,10 @@ $font-family_2: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospa
 $background-color_1: rgb(233, 246, 243);
 
 @import "https://fonts.googleapis.com/css2?family=Arvo&display=swap";
+html {
+	scroll-behavior: smooth;
+	transition: 0.39s;
+}	
 body {
 	background-color: $background-color_1;
 	font-family: $font-family_1;
