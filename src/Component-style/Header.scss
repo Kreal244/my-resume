@@ -40,7 +40,7 @@ li {
 		margin: 5px;
 		box-icon {
 			&:hover {
-				box-shadow: 2px 2px 2px 2px rgb(159, 158, 158);
+				filter: drop-shadow(4px 2px rgb(160, 160, 160));
 				transition-duration: 400ms;
 			}
 		}
